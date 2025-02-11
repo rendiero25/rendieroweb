@@ -573,6 +573,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.-mt-20 {
+  margin-top: -5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -583,22 +587,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-14 {
-  margin-top: -3.5rem;
-}
-
-.-mt-16 {
-  margin-top: -4rem;
-}
-
-.-mt-20 {
-  margin-top: -5rem;
 }
 
 .box-border {
@@ -649,10 +637,6 @@ video {
 
 .max-w-7xl {
   max-width: 80rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
 }
 
 .transform {
@@ -755,11 +739,6 @@ video {
 .bg-\[\#333647\] {
   --tw-bg-opacity: 1;
   background-color: rgb(51 54 71 / var(--tw-bg-opacity));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -1008,10 +987,6 @@ video {
     width: 35rem;
   }
 
-  .xl\:max-w-lg {
-    max-width: 32rem;
-  }
-
   .xl\:max-w-xl {
     max-width: 36rem;
   }
@@ -1091,51 +1066,12 @@ video {
 }
 
 @media (min-width: 1920px) {
-  @media (min-width: 640px) {
-    .\33xl\:sm\:px-6 {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-    }
-  }
-
   .\33xl\:w-\[15rem\] {
     width: 15rem;
   }
 
-  .\33xl\:max-w-2xl {
-    max-width: 42rem;
-  }
-
-  .\33xl\:max-w-0 {
-    max-width: 0px;
-  }
-
   .\33xl\:max-w-none {
     max-width: none;
-  }
-
-  .\33xl\:gap-24 {
-    gap: 6rem;
-  }
-
-  .\33xl\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .\33xl\:gap-36 {
-    gap: 9rem;
-  }
-
-  .\33xl\:gap-4 {
-    gap: 1rem;
-  }
-
-  .\33xl\:gap-48 {
-    gap: 12rem;
-  }
-
-  .\33xl\:gap-6 {
-    gap: 1.5rem;
   }
 
   .\33xl\:gap-60 {
@@ -1146,19 +1082,9 @@ video {
     gap: 2rem;
   }
 
-  .\33xl\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
   .\33xl\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
-  }
-
-  .\33xl\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
   }
 
   .\33xl\:py-6 {
@@ -1166,44 +1092,14 @@ video {
     padding-bottom: 1.5rem;
   }
 
-  .\33xl\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .\33xl\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
-  .\33xl\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .\33xl\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .\33xl\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .\33xl\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  .\33xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
-  }
-
   .\33xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .\33xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .\33xl\:text-6xl {
@@ -1211,9 +1107,9 @@ video {
     line-height: 1;
   }
 
-  .\33xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+  .\33xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 
   .\33xl\:text-xl {
