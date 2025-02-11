@@ -21,20 +21,22 @@
 </head>
 <body class="m-0 p-0 box-border bg-[#333647] font-primary">
     <header class="bg-[#333647] shadow-md lg:shadow-none lg:mt-4">
-        <div class="px-10 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="px-10 mx-auto max-w-7xl 3xl:max-w-none sm:px-6 lg:px-8 3xl:px-24">
             <div class="flex items-center justify-between h-16">
                 <div class="flex flex-row items-center gap-2">
-                    <img src="images/icon_message.png" alt="icon_message" class="w-5 lg:w-6">
-                    <p class="text-white text-medium lg:text-xs">workspace.rendy@gmail.com</p>
+                    <img src="images/icon_message.png" alt="icon_message" class="w-5 sm:w-6">
+                    <p class="text-white text-medium lg:text-xs 3xl:text-md">workspace.rendy@gmail.com</p>
                 </div>
-                <nav class="hidden space-x-4 md:flex">
-                    <a href="https://www.linkedin.com/in/rendytomaluweng/" target="_blank" class="text-xs text-white ">Linkedin &nbsp;/</a>
-                    <a href="https://github.com/rendiero25" target="_blank" class="text-xs text-white">Github &nbsp;/</a>
-                    <a href="https://www.instagram.com/rendiero25/" target="_blank" class="text-xs text-white">Instagram</a>
+                <nav class="hidden md:flex flex-row items-center gap-2">
+                    <a href="https://www.linkedin.com/in/rendytomaluweng/" target="_blank" class="text-xs 2xl:text-md text-white ">Linkedin</a>
+                    <p class="text-white">/</p>
+                    <a href="https://github.com/rendiero25" target="_blank" class="text-xs 2xl:text-md text-white">Github</a>
+                    <p class="text-white">/</p>
+                    <a href="https://www.instagram.com/rendiero25/" target="_blank" class="text-xs 2xl:text-md text-white">Instagram</a>
                 </nav>
                 <div class="flex items-center md:hidden">
                     <button id="menu-btn" class="text-gray-700 focus:outline-none">
-                        <img src="images/menu.png" alt="" class="w-5">
+                        <img src="images/menu.png" alt="" class="w-5 sm:w-6">
                     </button>
                 </div>
             </div>
@@ -47,41 +49,44 @@
             </nav>
         </div>
     </header>
-    <main class="mt-10">
-        <section class="flex justify-center px-3 py-3">
+
+    <main class="flex flex-col gap-12 xl:gap-24 mt-12 xl:mt-0">
+        <section class="min-h-screen flex justify-center items-center px-3 -mt-20">
             <div class="flex flex-col items-center justify-center space-y-5">
-                <img src="images/profilePic.jpg" alt="profilePic" class="profile rounded-full w-1/2 xl:w-[10rem] 2xl:w-[18rem] grayscale">
+                <img src="images/profilePic.jpg" alt="profilePic" class="profile rounded-full w-1/2 xl:w-[10rem] 2xl:w-[14rem] grayscale">
                 <div class="flex flex-col items-center justify-center space-y-5">
                     <div class="flex flex-row items-center justify-center space-x-2">
                         <p class="text-3xl text-gray-400 xl:text-2xl xl:">Hi, I'm <span class="font-bold text-white">Rendiero</span></p>
                         <img src="images/icon_hi.png" alt="icon_hi" class="size-8">
                     </div>
-                    <p class="text-5xl leading-tight text-center text-transparent xl:text-7xl bg-gradient-to-r from-white to-white/0 bg-clip-text">Front-End Web Developer</p>
-                    <button class="bg-[#333647] hover:bg-gray-700 focus:bg-slate-900 text-white py-3 px-8 xl:px-12 border-2 border-gray-700 shadow-2xl">
+                    <p class="text-5xl leading-tight text-center text-transparent xl:text-8xl 3xl:text-9xl bg-gradient-to-r from-white to-white/0 bg-clip-text">Front-End Web Developer</p>
+                    <button class="bg-[#333647] hover:bg-gray-700 focus:bg-slate-900 text-white py-3 3xl:py-6 px-8 xl:px-12 3xl:px-24 border-2 border-gray-700 shadow-2xl 3xl:text-2xl">
                         <a href="#projects">Latest Projects</a>
                     </button>
                 </div>
             </div>
         </section>
-        <section class="py-3 mt-10">
-            <div class="py-20 bg-gray-700 xl:py-16">
-                <div class="flex flex-col items-center justify-center space-y-20 xl:space-y-0 xl:flex-row xl:gap-12">
-                    <img src="./images/logo_interskill.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem]">
-                    <img src="./images/logo_nvro.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem]">
-                    <img src="./images/logo_azalea.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem]">
-                    <img src="./images/logo-seasearch.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem]">
-                    <img src="/images/logo-intervisual.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem]">
+
+        <section class="py-3">
+            <div class="py-20 bg-[#202533] xl:py-16">
+                <div class="flex flex-col items-center justify-center space-y-20 xl:space-y-0 xl:flex-row xl:gap-12 2xl:gap-24 3xl:py-6">
+                    <img src="./images/logo_interskill.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem] 3xl:w-[15rem]">
+                    <img src="./images/logo_nvro.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem] 3xl:w-[15rem">
+                    <img src="./images/logo_azalea.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem] 3xl:w-[15rem">
+                    <img src="./images/logo-seasearch.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem] 3xl:w-[15rem">
+                    <img src="/images/logo-intervisual.png" alt="logo_interskill" class="w-1/2 xl:w-[10rem] 3xl:w-[15rem">
                 </div>
             </div>
         </section>
-        <section class="flex px-10 py-3 mt-10 xl:justify-center xl:items-start xl:flex-row xl:gap-36">
+
+        <section class="flex flex-col px-10 py-3 xl:justify-center xl:items-start xl:flex-row xl:gap-36 3xl:gap-60">
             <div class="flex flex-col items-center justify-center space-y-10 xl:gap-10">
-                <p class="text-5xl font-bold text-white">RENDY NORMAN <br> TOMALUWENG</p>
-                <img src="/images/sign.png" alt="sign" class="size-3/4 xl:size-[10rem]">
+                <p class="text-5xl 3xl:text-6xl font-bold text-white">RENDY NORMAN <br> TOMALUWENG</p>
+                <img src="/images/sign.png" alt="sign" class="size-3/4 xl:w-[15rem]">
             </div>
             <div class="flex flex-col mt-10 space-y-5 xl:mt-0">
-                <h1 class="text-3xl font-bold text-white transparent font- bg-clip-text bg-gradient-to-r from-white to-transparent">About Me</h1>
-                <h2 class="text-lg text-white xl:max-w-lg">
+                <h1 class="text-3xl 3xl:text-4xl font-bold text-transparent bg-gradient-to-r from-white to-white/0 bg-clip-text">About Me</h1>
+                <h2 class="text-lg 3xl:text-xl text-white xl:max-w-xl 3xl:leading-normal">
                     I am a seasoned Front-End Web Developer with expertise in building responsive, fast, and user friendly
                     web interfaces. My skills in ("Of course" HTML, CSS & Javascript), TailwindCSS, React.Js, GSAP, Three.Js 
                     allow me to transform designs into interactive and engaging web applications. I focus is on building 
@@ -94,41 +99,41 @@
             </div>
         </section>
         
-        <section id="projects" class="flex flex-col items-center justify-center gap-4 mt-10">
+        <section id="projects" class="flex flex-col items-center justify-center gap-4">
             <h2 class="text-5xl font-bold text-center text-transparent bg-gradient-to-r from-white to-white/0 bg-clip-text">
                 Check out my recent works
             </h2>
-            <div class="flex flex-col items-center justify-center gap-6 xl:flex-row">
-                <div class="flex flex-col items-center justify-center gap-2">
+            <div class="mt-6 flex flex-col items-center justify-center gap-6 xl:flex-row">
+                <div class="flex flex-col items-center justify-center gap-4 3xl:gap-8 hover:drop-shadow-2xl">
                     <a href="https://www.interskill.id" target="_blank" class="flex items-center justify-center">
-                        <img src="./images/pic1.jpg" alt="project1" class="w-full hover:scale-110">
+                        <img src="./images/pic1.png" alt="project1" class="w-full">
                     </a>
-                    <h3 class="text-lg font-bold text-white">Interskill</h3>
+                    <h3 class="text-lg 3xl:text-2xl font-medium text-white">Interskill</h3>
                 </div>
-                <div class="flex flex-col items-center justify-center gap-2">
+                <div class="flex flex-col items-center justify-center gap-4 3xl:gap-8 hover:drop-shadow-2xl">
                     <a href="https://www.intervisual.co.id" target="_blank" class="flex items-center justify-center">
-                        <img src="./images/pic1.jpg" alt="project1" class="w-full hover:scale-110">
+                        <img src="./images/pic2.png" alt="project1" class="w-full">
                     </a>
-                    <h3 class="text-lg font-bold text-white">Intervisual</h3>
+                    <h3 class="text-lg 3xl:text-2xl font-medium text-white">Intervisual</h3>
                 </div>
-                <div class="flex flex-col items-center justify-center gap-2">
+                <div class="flex flex-col items-center justify-center gap-4 3xl:gap-8 hover:drop-shadow-2xl">
                     <a href="https://www.seasearch.asia" target="_blank" class="flex items-center justify-center">
-                        <img src="./images/pic1.jpg" alt="project1" class="w-fullhover:scale-110">
+                        <img src="./images/pic3.png" alt="project1" class="w-full">
                     </a>
-                    <h3 class="text-lg font-bold text-white">SeaSearch</h3>
+                    <h3 class="text-lg 3xl:text-2xl font-medium text-white">SeaSearch</h3>
                 </div>
             </div>
         </section>
         
-        <section class="bg-[#222432] flex flex-col justify-center items-center p-10 m-10">
-            <h2 class="text-xl text-center text-white sm:text-3xl ">Get and idea? Tell me and let's work <br> together and make it happens!</h2>
-            <div class="flex flex-row mt-5">
-                <input type="text" class="bg-[#2b2d3e] pl-2" placeholder=" Your message">
+        <section class="bg-[#202533] flex flex-col justify-center items-center px-10 py-28 mx-10">
+            <h2 class="text-3xl text-center text-white sm:text-3xl xl:text-5xl xl:leading-tight">Get and idea? Tell me and let's work <br> together and make it happens!</h2>
+            <div class="flex flex-row mt-6 xl:mt-10">
+                <input type="text" class="bg-[#2b2d3e] pl-2 xl:w-[35rem]" placeholder=" Your message" >
                 <button class="bg-[#333647] px-5 py-3 text-white" type="submit">Send</button>
             </div>
         </section>
         <footer>
-            <p class="flex justify-center my-10 text-white">2025 Rendiero. All rights reserved.</p>
+            <p class="flex justify-center my-10 xl:mb-10 xl:mt-0 text-white">2025 Rendiero. All rights reserved.</p>
         </footer>
     </main>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
