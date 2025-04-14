@@ -1,5 +1,7 @@
-import {gsap} from 'gsap';
-//import {ScrollTrigger} from "gsap/ScrollTrigger";
+const myAtropos = Atropos({
+    el: ".my-atropos", 
+    activeOffset:5,
+    rotateXMax: 50,
+    shadow: true,
+});
 
-//gsap.registerPlugin(ScrollTrigger);
-gsap.to('.profile', {x:300, rotation:27, duration:2});
